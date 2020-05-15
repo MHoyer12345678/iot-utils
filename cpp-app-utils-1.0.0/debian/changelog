@@ -1,0 +1,5 @@
+cpp-app-utils (1.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Marko Hoyer <mhoyer.oss-devel@freenet.de>  Sun, 10 Jun 2018 12:32:01 +0200

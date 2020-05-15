@@ -1,0 +1,24 @@
+Source: cpp-app-utils
+Priority: optional
+Maintainer: Marko Hoyer <mhoyer.oss-devel@freenet.de>
+Build-Depends: debhelper (>= 10), autotools-dev , gawk, pkg-config, mime-support, file, cpio, libglib2.0-dev
+Standards-Version: 4.1.2
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/cpp-app-utils.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/cpp-app-utils.git
+
+Package: cpp-app-utils-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: cpp-app-utils1 (= ${binary:Version}), ${misc:Depends}
+Description: CPP application utils
+ Contains a static library with some tool useful to write CPP applications
+
+Package: cpp-app-utils1
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CPP application utils
+ Contains a static library with some tool useful to write CPP applications
