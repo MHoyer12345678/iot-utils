@@ -1,3 +1,9 @@
+cpp-app-utils (1.1.0) UNRELEASED; urgency=medium
+
+  * Add parser function for boolean to Configuration.
+
+ -- Marko Hoyer <mhoyer.oss-devel@freenet.de>  Sun, 19 Dec 2021 23:05:50 +0100
+
 cpp-app-utils (1.0.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

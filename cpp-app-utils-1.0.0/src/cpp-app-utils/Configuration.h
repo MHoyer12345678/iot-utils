@@ -80,6 +80,9 @@ public:
 
 	static bool GetInt64ValueFromKey(GKeyFile *confFileObj, const char *key,
 			const char *group, int *valuePtr);
+
+	static bool GetBooleanValueFromKey(GKeyFile *confFileObj, const char *key,
+			const char *group, bool *valuePtr);
 };
 
 } /* namespace ServerPM */

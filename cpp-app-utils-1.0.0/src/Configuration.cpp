@@ -289,5 +289,26 @@ bool Configuration::GetInt64ValueFromKey(GKeyFile *confFileObj, const char *key,
 	}
 }
 
+bool Configuration::GetBooleanValueFromKey(GKeyFile *confFileObj,
+		const char *key, const char *group, bool *valuePtr)
+{
+	GError *error=NULL;
+	bool value;
+
+	value=g_key_file_get_boolean(confFileObj, group, key, &error);
+
+	if (error != NULL)
+	{
+		Logger::LogError("Value assigned to key '%s' in group [%s] needs to be a boolean: %s", key,group, error->message);
+		g_error_free(error);
+		return false;
+	}
+	else
+	{
+		*valuePtr=value;
+		return true;
+	}
+}
+
 } /* namespace ServerPM */
 
