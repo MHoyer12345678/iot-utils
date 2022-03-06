@@ -1,0 +1,15 @@
+Source: network-setup
+Section: embedded 
+Priority: optional
+Maintainer: Marko Hoyer <joe@unknown>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/basic-startup-conf
+#Vcs-Git: https://salsa.debian.org/debian/basic-startup-conf.git
+
+Package: network-setup
+Architecture: all
+Depends: ${misc:Depends}, wpasupplicant, isc-dhcp-client, psmisc
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
