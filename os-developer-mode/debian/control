@@ -1,0 +1,13 @@
+Source: os-developer-mode
+Section: unknown
+Priority: optional
+Maintainer: Marko Hoyer <mhoyer.oss-devel@freenet.de>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Homepage: <insert the upstream URL, if relevant>
+
+Package: os-developer-mode
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

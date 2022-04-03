@@ -1,0 +1,6 @@
+294dd6541357d5342c8f0b98ff44883a  sbin/init-devel.sh
+bc377feda5abb83b3debedfcfe9fe36a  usr/sbin/disable-developer-mode.sh
+b1c96d9c4ffdadb4a74c7b18049d0c42  usr/sbin/enable-developer-mode.sh
+e313f655ffe41522640e87662f155a84  usr/sbin/trigger-developer-rfs-boot.sh
+0cf466ccaa273ee28ce265401fc55f18  usr/share/doc/os-developer-mode/changelog.gz
+e0dd9dc59700675bf1d5964348785786  usr/share/doc/os-developer-mode/copyright

@@ -1,0 +1,10 @@
+Package: os-developer-mode
+Version: 1.0.0
+Architecture: all
+Maintainer: Marko Hoyer <mhoyer.oss-devel@freenet.de>
+Installed-Size: 15
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
