@@ -16,7 +16,7 @@ rm $SWITCH_TO_DEVEL_OS_TRIGGER_FN
 umount /boot
 
 # prepare to boot into partition with development image
-mount -o ro $DEVELOPMENT_IMG_PARTITION /mnt
+mount -o rw $DEVELOPMENT_IMG_PARTITION /mnt
 umount -f /
 exec /sbin/chroot /mnt /sbin/init
 
