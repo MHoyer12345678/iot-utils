@@ -6,4 +6,4 @@
 echo "1" > /proc/sys/net/ipv4/ip_forward
 
 #add masquerade rule to post processing in nat table
-iptables -t nat -A POSTROUTING -o wlp3s0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -o wlp0s20f3 -j MASQUERADE
