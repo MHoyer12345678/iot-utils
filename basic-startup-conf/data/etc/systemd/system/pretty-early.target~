@@ -1,3 +1,0 @@
-[Unit]
-Description=Pretty Application Started"
-Before=basic.target
