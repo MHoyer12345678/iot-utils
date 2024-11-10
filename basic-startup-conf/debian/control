@@ -1,4 +1,4 @@
-Source: basic-startup-conf-sd241-buster
+Source: basic-startup-conf
 Section: unknown
 Priority: optional
 Maintainer: Marko Hoyer <mhoyer.oss-devel@freenet.de>
@@ -9,6 +9,12 @@ Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: https://salsa.debian.org/debian/basic-startup-conf.git
 
 Package: basic-startup-conf-sd241-buster
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: basic-startup-conf-sd256-bookworm
 Architecture: all
 Depends: ${misc:Depends}
 Description: <insert up to 60 chars description>
