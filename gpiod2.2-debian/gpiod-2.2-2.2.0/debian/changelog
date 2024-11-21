@@ -1,0 +1,5 @@
+gpiod-2.2 (2.2.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Marko Hoyer <Marko Hoyer <mhoyer.oss-devel@freenet.de>>  Wed, 20 Nov 2024 22:49:02 +0100

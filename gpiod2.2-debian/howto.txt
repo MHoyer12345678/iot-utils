@@ -1,0 +1,5 @@
+- download source from libgpiod git (2.2.x branch)
+- put archive as gpiod-2.2_2.2.0.orig.tar.gz into this folder
+- unpack also into gpiod-2.0-2.2.0 folder
+- call dpkg-source -b gpiod-2.2-2.2.0
+- use pbd_03_pbuilder_build.sh to create binary package

@@ -1,0 +1,46 @@
+Source: gpiod-2.2
+Section: libs
+Priority: optional
+Maintainer: Marko Hoyer <Marko Hoyer <mhoyer.oss-devel@freenet.de>>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13), autoconf-archive
+Standards-Version: 4.7.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/libgpiod
+#Vcs-Git: https://salsa.debian.org/debian/libgpiod.git
+
+Package: libgpiod-2.2-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends:
+ libgpiod-2.2,
+ ${misc:Depends}
+Conflicts:
+ libgpiod-dev
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: libgpiod-2.2
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Conflicts:
+ libgpiod
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: gpiod-2.2
+Architecture: any
+Multi-Arch: same
+Depends:
+ libgpiod-2.2,
+ ${misc:Depends}
+Conflicts:
+ gpiod
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+ 
