@@ -1,0 +1,15 @@
+Source: first-boot
+Section: embedded 
+Priority: optional
+Maintainer: Marko Hoyer <mhoyer.oss-devel@freenet.de>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/basic-startup-conf
+#Vcs-Git: https://salsa.debian.org/debian/basic-startup-conf.git
+
+Package: first-boot
+Architecture: all
+Depends: ${misc:Depends}
+Description: systemd first boot execution service
+ Installs systemd service files to execute a shell script on first boot only.

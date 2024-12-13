@@ -1,0 +1,19 @@
+[Unit]
+Description="First boot done tagging"
+
+#started after system start complete. Adapt file and add to /etc/systemd/system if specific dependencies are needed here
+After=multi-user.target
+
+#check for first boot done tag
+ConditionPathExists=!/var/lib/first-boot-done.state
+
+#check for first boot scripts
+ConditionFileIsExecutable=/usr/bin/first-boot-script.sh
+ConditionFileIsExecutable=/usr/bin/first-boot.sh
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/first-boot.sh
+
+[Install]
+WantedBy=multi-user.target
